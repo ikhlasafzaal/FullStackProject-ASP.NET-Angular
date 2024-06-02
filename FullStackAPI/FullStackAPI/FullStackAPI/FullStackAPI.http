@@ -1,0 +1,6 @@
+@FullStackAPI_HostAddress = http://localhost:5095
+
+GET {{FullStackAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

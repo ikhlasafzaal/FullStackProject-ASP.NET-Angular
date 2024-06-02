@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|c:\\users\\cz\\onedrive\\desktop\\project\\fullstackapi\\fullstackapi\\fullstackapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|solutionrelative:fullstackapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|c:\\users\\cz\\onedrive\\desktop\\project\\fullstackapi\\fullstackapi\\fullstackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|solutionrelative:fullstackapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|c:\\users\\cz\\onedrive\\desktop\\project\\fullstackapi\\fullstackapi\\fullstackapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|solutionrelative:fullstackapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|c:\\users\\cz\\onedrive\\desktop\\project\\fullstackapi\\fullstackapi\\fullstackapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|solutionrelative:fullstackapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|c:\\users\\cz\\onedrive\\desktop\\project\\fullstackapi\\fullstackapi\\fullstackapi\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A114DD48-D92D-44C9-8E72-33A8A54B151C}|FullStackAPI\\FullStackAPI.csproj|solutionrelative:fullstackapi\\models\\fullstackcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "FullStackAPI\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "FullStackAPI\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAwwEIAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:22:41.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FullStackContext.cs",
+              "DocumentMoniker": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Models\\FullStackContext.cs",
+              "RelativeDocumentMoniker": "FullStackAPI\\Models\\FullStackContext.cs",
+              "ToolTip": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Models\\FullStackContext.cs",
+              "RelativeToolTip": "FullStackAPI\\Models\\FullStackContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:20:40.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "FullStackAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\appsettings.json",
+              "RelativeToolTip": "FullStackAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T06:19:01.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Program.cs",
+              "RelativeDocumentMoniker": "FullStackAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Program.cs",
+              "RelativeToolTip": "FullStackAPI\\Program.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:18:59.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "FullStackAPI\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\CZ\\OneDrive\\Desktop\\Project\\FullStackAPI\\FullStackAPI\\FullStackAPI\\Models\\Employee.cs",
+              "RelativeToolTip": "FullStackAPI\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T06:21:16.431Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

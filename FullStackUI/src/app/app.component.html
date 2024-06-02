@@ -1,0 +1,80 @@
+<div class="flex h-screen justify-center items-center bg-gray-100">
+  <div class="flex w-full max-w-6xl bg-white p-6 rounded shadow-md">
+    <!-- Form Section -->
+    <div class="w-1/2 p-4">
+      <form (ngSubmit)="onFormSubmit()" [formGroup]="employeeForm">
+        <h1 class="text-2xl font-bold mb-4 text-center">Add Employee</h1>
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" formControlName="name" id="name" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" formControlName="email" id="email" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="phone" class="block text-gray-700 font-bold mb-2">Phone</label>
+          <input type="tel" formControlName="phone" id="phone" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="age" class="block text-gray-700 font-bold mb-2">Age</label>
+          <input type="number" formControlName="age" id="age" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="salary" class="block text-gray-700 font-bold mb-2">Salary</label>
+          <input type="number" formControlName="salary" id="salary" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="mb-4">
+          <label for="department" class="block text-gray-700 font-bold mb-2">Department</label>
+          <input type="text" formControlName="department" id="department" class="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:border-blue-500">
+        </div>
+        <div class="flex items-center justify-between">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Submit</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Table Section -->
+    <div class="w-1/2 p-4">
+      <div *ngIf="Employee$ | async as Employee">
+        <h1 class="text-2xl font-bold mb-4 text-center">Employee List</h1>
+        <div *ngIf="Employee.length > 0; else noEmployee">
+          <div class="overflow-x-auto">
+            <table class="min-w-full bg-white shadow-md rounded my-6">
+              <thead>
+                <tr>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Id</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Name</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Email</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Phone</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Age</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Salary</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Department</th>
+                  <th class="py-2 px-4 bg-gray-100 border-b border-gray-300 text-left text-sm uppercase font-semibold text-gray-700">Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let employee of Employee; let index = index">
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.id }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.name }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.email }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.phone }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.age }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.salary }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">{{ employee.department }}</td>
+                  <td class="py-2 px-4 border-b border-gray-300">
+                    <!-- <button (click)="onEdit(employee)" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded mr-2">Update</button> -->
+                    <button (click)="onDelete(employee.id)" class="bg-red-500 hover:bg-red-700 text-white font-bold py-1 px-2 rounded">Delete</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <ng-template #noEmployee>
+          <h5 class="text-lg font-medium text-gray-700 mt-6">No Employee Found</h5>
+        </ng-template>
+      </div>
+    </div>
+  </div>
+</div>
